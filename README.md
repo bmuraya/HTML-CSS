@@ -4,5 +4,5 @@
 
 ## design layout
 
-[layout design]<img src="https://github.com/bmuraya/HTML-CSS/blob/main/Web-Layout-Design/layout.JPG" width="380px" height="100px">
+[layout design]<img src="https://github.com/bmuraya/HTML-CSS/blob/main/Web-Layout-Design/layout.JPG" width="312px" height="628px">
 
