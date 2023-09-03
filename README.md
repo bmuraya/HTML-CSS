@@ -4,4 +4,4 @@
 
 ## design layout
 
-[![layout design](./layout.JPG)
+[layout design](./layout.JPG)
