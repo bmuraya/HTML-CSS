@@ -1,0 +1,161 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-transform: capitalize;
+
+    
+}
+
+#wrapper
+{
+    width: 100%;
+    margin: auto;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.logo
+{
+    width: 100%;
+    min-height: 150px;
+    background-color: brown;
+    line-height: 150px;
+    padding-left: 20px;   
+    color: aliceblue;  
+    float: left;
+}
+
+/*main section content area*/
+main
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+#sidebar
+{
+    width: 30%;
+    min-height: 400px;
+    line-height: 400px;
+    float: left;
+}
+
+nav
+{
+    min-height: 40px;
+    background-color: brown;
+    opacity: 80%;
+    line-height: 150px;
+    text-align: center;
+    color: aliceblue; 
+    margin-bottom: 15px;
+    
+}
+
+
+
+#leftbar
+{
+   
+    min-height: 40px;
+    background-color: brown;
+    opacity: 85%;
+    line-height: 400px;
+    text-align: center;
+    color: aliceblue; 
+   
+}
+
+#rightbar
+{
+   width: 70%;
+    min-height: 40px;
+   
+    opacity: 85%;
+    line-height: 400px;
+    text-align: center;
+    color: aliceblue; 
+    float: right;
+   
+}
+
+header
+{
+    width: 100%;
+    min-height: 150px;
+    background-color: rgb(56, 1, 1);
+    line-height: 150px;
+    opacity: 60%;
+   text-align: center;   
+    color: aliceblue;
+    margin-bottom: 15px;
+   
+}
+
+#introtext
+{
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(56, 1, 1);
+    line-height: 150px;
+    opacity: 70%;
+   text-align: center;   
+    color: aliceblue;
+    margin-bottom: 15px;
+   
+}
+
+
+main .box
+{
+    width: 30%;
+    min-height: 400px;
+    background-color: rgb(56, 1, 1);
+    line-height: 400px;
+    opacity: 70%;
+   text-align: center;   
+    color: aliceblue;
+    float: left;
+
+}
+main .box:nth-child(2)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: blueviolet;
+}
+main .box:nth-child(3)
+{
+    
+    background-color: rgb(224, 21, 21);
+}
+
+footer
+{
+    width: 100%;
+    min-height: 150px;
+    background-color: brown;
+    opacity: 60%;
+    line-height: 150px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
