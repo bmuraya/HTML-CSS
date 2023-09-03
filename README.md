@@ -4,4 +4,5 @@
 
 ## design layout
 
-[layout design](./layout.JPG)
+[layout design]<img src="./layout.JPG" width="380px" height="100px">
+
