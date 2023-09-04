@@ -53,7 +53,7 @@ main
 #sidebar
 {
     width: 30%;
-    min-height: 400px;
+  
     line-height: 400px;
     float: left;
 }
@@ -66,7 +66,7 @@ nav
     line-height: 150px;
     text-align: center;
     color: aliceblue; 
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     
 }
 
@@ -87,7 +87,7 @@ nav
 #rightbar
 {
    width: 70%;
-    min-height: 40px;
+   
    
     opacity: 85%;
     line-height: 400px;
@@ -115,7 +115,7 @@ header
     width: 100%;
     min-height: 400px;
     background-color: rgb(56, 1, 1);
-    line-height: 150px;
+    line-height: 400px;
     opacity: 70%;
    text-align: center;   
     color: aliceblue;

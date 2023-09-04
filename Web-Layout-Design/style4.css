@@ -1,0 +1,124 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-transform: capitalize;
+
+    
+}
+
+#wrapper
+{
+    width: 100%;
+    margin: auto;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#logo-nav
+{
+    width: 100%;
+}
+
+#logo
+{
+    width: 30%;
+    min-height: 150px;
+    background-color: brown;
+    line-height: 150px;
+    padding-left: 20px;   
+    color: aliceblue;  
+    float: left;
+}
+
+nav
+{
+    width: 70%;
+    min-height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background-color: aqua;
+    float: right;
+}
+
+.row
+{
+    width: 100%;
+    min-height: 100px;
+    /* background-color: beige;*/ 
+    margin-top: 10px;
+}
+
+.col
+{
+    width: 20%;
+    min-height: 100px;
+    background-color: burlywood;
+    float: left;
+}
+.col:nth-child(2), .col:nth-child(3)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#boxers
+{
+    width: 100%;
+    min-height: 100px;
+   /* background-color: chartreuse;*/
+    margin-top: 10px;
+}
+
+#boxers .box
+{
+    width: 30%;
+    min-height: 100px;
+    background-color: burlywood;
+    float: left;
+    line-height:100px ;
+    text-align: center;
+}
+
+#boxers .box:nth-child(2)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*main section content area*/
+main
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+
+footer
+{
+    width: 100%;
+    min-height: 150px;
+    background-color: brown;
+    opacity: 60%;
+    line-height: 150px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10px;
+}
