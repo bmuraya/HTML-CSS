@@ -1,0 +1,43 @@
+.container
+{
+    border: 5px solid skyblue;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content:flex-end; */
+    /* height: 400px; */
+    /* align-items: flex-start; */
+}
+
+.container > div
+{
+    padding: 10px;
+    /* margin: 30px; */
+    color: black;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    background-color: aquamarine;
+    /* flex: 1; */
+}
+
+
+
+
+
+
+/* .container > .about
+{
+    flex: 2;
+} */
+/* .about
+{
+    align-self: flex-end;
+}
+
+.home
+{
+    align-self: flex-start;
+}
+.Blog
+{
+    align-self: center;
+} */
